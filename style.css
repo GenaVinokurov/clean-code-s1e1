@@ -4,22 +4,22 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.image {
+.img-section {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.image img {
+.img-section img {
   width: 100%;
 }
-.image .more-info {
+.img-section__more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-.image { 
+.img-section { 
     text-align: center;
 }
 }
@@ -57,8 +57,7 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
-label[for="new-task"] {
+h3 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -84,12 +83,12 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+.add-block__title {
   display: block;
   margin: 0 0 20px;
 }
 #new-task {
-  width: 318px;
+  width: 316px;
 }
 p > button:hover {
   color: #0fc57c;

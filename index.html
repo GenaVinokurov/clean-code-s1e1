@@ -9,14 +9,14 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body>
-  <section class="image">
+  <section class="img-section">
     <img src="./eisenhower-matrix.jpg" alt="eisenhower-matrix">
-    <a class="more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details ?</a>
+    <a class="img-section__more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details ?</a>
   </section>
   <main class="main">
-    <aside>
-      <label for="new-task">Add Item</label>
-      <input id="new-task" type="text">
+    <aside class="add-block">
+      <h3 for="new-task" class="add-block__title">Add Item</h3>
+      <input id="new-task" type="text" class="input-text">
       <button>Add</button>
     </aside>
     <h3>Todo</h3>
@@ -24,7 +24,7 @@
       <article>
         <input type="checkbox">
         <label class="task">Pay Bills</label>
-        <input type="text">
+        <input type="text" class="input-text">
         <button class="edit">Edit</button>
         <button class="delete">
           <img src="./remove.svg">
@@ -33,7 +33,7 @@
       <article class="edit-mode">
         <input type="checkbox">
         <label class="task">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="task">
+        <input type="text" value="Go Shopping" class="task input-text">
         <button class="edit">Save</button>
         <button class="delete">
           <img src="./remove.svg">
@@ -45,7 +45,7 @@
       <article>
         <input type="checkbox" checked>
         <label class="task">See the Doctor</label>
-        <input type="text">
+        <input type="text" class="input-text" >
         <button class="edit">Edit</button>
         <button class="delete">
           <img src="./remove.svg">
